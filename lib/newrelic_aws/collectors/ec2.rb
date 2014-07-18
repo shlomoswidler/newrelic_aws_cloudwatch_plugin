@@ -32,7 +32,9 @@ module NewRelicAWS
           ["DiskWriteOps", "Sum", "Count"],
           ["DiskWriteBytes" , "Sum", "Bytes"],
           ["NetworkIn", "Sum", "Bytes"],
-          ["NetworkOut", "Sum", "Bytes"]
+          ["NetworkOut", "Sum", "Bytes"],
+          ["CPUCreditUsage", "Sum", "Count"],
+          ["CPUCreditBalance", "Sum", "Count"]
         ]
       end
 
